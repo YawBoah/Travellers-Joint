@@ -196,7 +196,7 @@ nav{
 
 .stories div img{
     width: 100%;
-    height: 90%;
+    height: 80%;
     border-radius: 10px;
 }
 
@@ -206,13 +206,9 @@ nav{
 }
 
 .stories p {
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
     font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 .start-btn{
