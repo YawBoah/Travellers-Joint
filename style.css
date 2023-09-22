@@ -315,13 +315,22 @@ nav{
     border-radius: 50%;
 }
 
-hr{
+/* hr{
     background: #999;
     height: 1px;
     width: 80%;
     border: 0;
     margin: 20px;
     margin-left: 130px;
+} */
+
+.copy-right{
+    margin: 20px 15px;
+    padding: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* text-align: center; */
 }
 
 .active{
