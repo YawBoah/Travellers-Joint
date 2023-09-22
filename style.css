@@ -251,21 +251,28 @@ nav{
 .footer{
     background-image: url(footer.png);
     width: 70%;
-    height: 70%;
     margin: 150px;
     /* text-align: center;     */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
  fieldset{
     font-size: 35px;
-    margin: 30px 30px 30px;
+    margin: 50px 40px 40px;
     color: #FF5501;
+    /* background-color: red; */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
  }
 
  legend{
-    /* color: #fff; */
     margin-left: 30px;
  }
 .footer-right{
+    width: 60%;
     display: flex;
     flex-direction: column;
     color: #ddd;
@@ -277,9 +284,28 @@ nav{
     background: transparent;
     margin-top: 40px;
     margin-left: 50px;
+    border-radius: 10px;
+    
 }
 
-.footer a{
+.footer-right button{
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: #FF5501;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer-left{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+}
+
+.footer-left a{
     text-decoration: none;
     color: #999;
     font-size: 22px;
