@@ -307,9 +307,12 @@ nav{
 
 .footer-left a{
     text-decoration: none;
-    color: #999;
+    color: #FF5501;
     font-size: 22px;
     margin: 0 10px;
+    width: 20px;
+    height: 10px;
+    border-radius: 50%;
 }
 
 .footer hr{
