@@ -315,12 +315,13 @@ nav{
     border-radius: 50%;
 }
 
-.footer hr{
+hr{
     background: #999;
     height: 1px;
-    width: 100%;
+    width: 80%;
     border: 0;
     margin: 20px;
+    margin-left: 130px;
 }
 
 .active{
