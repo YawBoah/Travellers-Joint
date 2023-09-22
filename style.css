@@ -156,7 +156,7 @@ nav{
 /*----call to work-----*/
 .cta{
     margin: 80px ;
-    background-image: linear-gradient(to right, #3f2321, transparent) ,url(banner-2.png);
+    background-image: linear-gradient(to right, #3f2321, transparent) ,url(banner.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -165,7 +165,7 @@ nav{
 }
 
 .cta h3{
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 5.3vw;
     font-weight: 500;
 }
