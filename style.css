@@ -9,7 +9,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(banner.png);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Images/banner.png);
     background-size: cover;
     background-position: center;
 }
@@ -156,7 +156,7 @@ nav{
 /*----call to work-----*/
 .cta{
     margin: 80px ;
-    background-image: linear-gradient(to right, #3f2321, transparent) ,url(banner.jpg);
+    background-image: linear-gradient(to right, #3f2321, transparent) ,url(Images/banner.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -249,7 +249,7 @@ nav{
 
 /*----footer------*/
 .footer{
-    background-image: url(footer.png);
+    background-image: url(Images/footer.png);
     width: 70%;
     margin: 150px;
     /* text-align: center;     */
